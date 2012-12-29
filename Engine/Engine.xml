@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="engine"
+  brief="Engine plug-in"
+  author="Sergey Mikhtonyuk"
+  version="1">
+
+  <exports>
+    <class name="CEngine" classid="e2800685-9262-4152-a0c5-bcd0cdadbba0"/>
+    <class name="CFSFrameWrapper" classid="56e36340-fd95-4033-af09-c1ae7bef7136"/>
+  </exports>
+
+  <extends point="core::startlisteners" classid="CEngine"/>
+
+  <!--Self-extension (file system frame wrapper that dispatches async messages)-->
+  <extends point="engine::framelisteners" classid="CFSFrameWrapper">
+    <priority>900</priority>
+  </extends>
+
+  <provides point="framelisteners" interface="IFrameListener" iid="cad0cae5-b4b2-4519-8ecf-a0cd0e3727f8">
+    <priority>int that determines the order of notification [0..INT_MAX]</priority>
+  </provides>
+
+  <provides point="renderers" interface="IRenderer" iid="3710416a-13a6-4b00-8c4a-7683661c747f">
+    <type>see enum ERendererType</type>
+  </provides>  
+
+</plugin>

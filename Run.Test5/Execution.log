@@ -1,0 +1,17 @@
+[18:37:41]  -INFO-	[Init] Initializing core
+[18:37:41]  -TRACE-	[Init] Creating plugin manager
+[18:37:41]  -TRACE-	[Init] Loading core plug-ins
+[18:37:41]  -TRACE-	[Init] Creating plug-in shadow: core
+[18:37:41]  -TRACE-	[Init] Creating extension point: startlisteners
+[18:37:41]  -TRACE-	[Init] Creating plug-in shadow: core.filesystem
+[18:37:41]  -TRACE-	Loading plugin module: core.filesystem.dll
+[18:37:41]  -TRACE-	[Init] Initializing file system
+[18:37:41]  -TRACE-	[Init] Loading core settings file
+[18:37:41]  <<WARNING>>	[Init] Loading failed, proceeding with default settings
+[18:37:41]  -TRACE-	[Init] Loading regular plug-ins
+[18:37:41]  -INFO-	[Init] 2 plug-ins loaded
+[18:37:41]  -INFO-	[Shutdown] Shutting down the core
+[18:37:41]  -TRACE-	[Shutdown] Shadow shutdown: core.filesystem
+[18:37:41]  -TRACE-	[Shutdown] Shutting down file system
+[18:37:41]  -TRACE-	[Shutdown] Unloading shadow: core
+[18:37:41]  -TRACE-	[Shutdown] Unloading shadow: core.filesystem

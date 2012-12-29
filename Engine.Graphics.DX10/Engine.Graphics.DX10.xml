@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="engine.graphics.dx10"
+  brief="Renderer based on DirectX 10"
+  author="Sergey Mikhtonyuk"
+  version="1">
+
+</plugin>

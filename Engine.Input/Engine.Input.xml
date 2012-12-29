@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="engine.input"
+  brief="Input controller"
+  version="1"
+  author="Mikhtonyuk Sergey">
+
+  <exports>
+    <class name="CInputController" classid="860b5c8f-cb3f-442d-a732-664a921f313b"/>
+  </exports>
+
+</plugin>

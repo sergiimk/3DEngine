@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="engine.ui"
+  brief="User interface subsystem"
+  author="Sergey Mikhtonyuk"
+  version="1">
+
+  <exports>
+    <class name="CUIManager" classid="36e69f9e-8a3c-421a-8720-09f527ef0217"/>
+  </exports>
+
+</plugin>

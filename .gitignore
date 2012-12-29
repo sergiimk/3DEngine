@@ -1,13 +1,35 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+\!Docs/*
+Resources/*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Ignore all backup files
+*~
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Ignore build artifacts
+bin/*
+
+# Ignore python compiled files
+*.pyc
+
+# Ignore msvc temp files
+build/msvc-9.0/*.ncb
+build/msvc-9.0/*.suo
+build/msvc-9.0/*.user
+
+build/msvc-10.0/ipch
+build/msvc-10.0/*.suo
+build/msvc-10.0/*.user
+build/msvc-10.0/*.sdf
+build/msvc-10.0/*.opensdf
+
+# Ignore doxygen output
+doc/api_reference/*
+
+# Ignore temp diagram files
+doc/diagrams/*.suo
+doc/diagrams/*/bin
+doc/diagrams/*/obj
+
+
+# Ignore codeblocks tmp files
+build/codeblocks/*.depend
+build/codeblocks/*.layout

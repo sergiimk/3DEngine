@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  
+  <loadonly>
+    <plugin name="engine" />
+    <plugin name="engine.input" />
+    <plugin name="engine.ui" />
+    <plugin name="engine.graphics.dx9" />
+    <plugin name="test.engine.ui1" />
+  </loadonly>
+  
+</settings>

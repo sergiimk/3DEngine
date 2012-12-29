@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="engine.graphics.dx9"
+  brief="Renderer based on DirectX 9"
+  author="Sergey Mikhtonyuk"
+  version="1">
+
+  <exports>
+    <class name="CD3DRenderer" classid="0e90bbd4-00cf-41e1-a214-b376370924a9"/>
+  </exports>
+
+  <extends point="engine::renderers" classid="CD3DRenderer">
+    <type>RENDERER_DX9</type>
+  </extends>
+
+</plugin>

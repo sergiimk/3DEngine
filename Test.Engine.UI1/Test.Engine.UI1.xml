@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+  name="test.engine.ui1"
+  brief="Test built on top of engine"
+  version="1"
+  author="Mikhtonyuk Sergey">
+ 
+  <exports>
+    <class name="CTestGame" classid="f0b39d90-0386-4888-83dd-6ebc98651aaa"/>
+  </exports>
+
+  <extends point="engine::framelisteners" classid="CTestGame">
+    <priority>200</priority>
+  </extends>
+
+</plugin>
