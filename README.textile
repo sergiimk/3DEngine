@@ -1,0 +1,7 @@
+This is 3D game engine I've worked on in my university years. 
+
+After 4 years working in game industry (this engine actually made my job interview go very smooth) I'm still quite sure that this is the right approach to writing game engines, and architecture-wise it beats the hell out of many comertial and open-source engines.
+
+Main feature is that it is very modular. It is based on architecture similar to Eclipse Extensions, where every bit of functionality is a plug-in. Metadata defines the graph of plug-in runtime configurations. This framework proved itself very usable, so I've ended up separating it to its own project (see SekaiFramework).
+
+I'm not developing it now, but still hope to port it someday to new version of SekaiFramework and add OpenGL renderer implementation.
