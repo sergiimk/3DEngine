@@ -4,4 +4,6 @@ After 4 years working in game industry (this engine actually made my job intervi
 
 Main feature is that it is very modular. It is based on architecture similar to Eclipse Extensions, where every bit of functionality is a plug-in. Metadata defines the graph of plug-in runtime configurations. This framework proved itself very usable, so I've ended up separating it to its own project (see SekaiFramework).
 
+Please check out the very cool documentation I have for it in /doc/Engine_reference.docx it's a very interesting read regardless of whether you intend to use this library or not.
+
 I'm not developing it now, but still hope to port it someday to new version of SekaiFramework and add OpenGL renderer implementation.
